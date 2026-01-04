@@ -16,6 +16,13 @@ nav a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+li {
+  margin: 1.5rem;
+}
+
 /*Responsive navbar*/
 @media (min-width: 700px) {
   nav ul {
