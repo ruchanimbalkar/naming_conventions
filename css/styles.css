@@ -1,0 +1,27 @@
+body {
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  padding: 1rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 1rem;
+  margin: 0;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+}
+
+/*Responsive navbar*/
+@media (min-width: 700px) {
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+}
